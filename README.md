@@ -1,0 +1,20 @@
+# Python & Data Science Journey 🚀
+
+## About
+BSCS graduate — 3 month AI Engineer roadmap follow kar raha hoon.
+
+## Progress
+| Day | Topic | Status |
+|-----|-------|--------|
+| Day 1 | Python Basics | ✅ |
+| Day 2 | Pandas Fundamentals | ✅ |
+| Day 3 | Data Analysis Practice | ✅ |
+| Day 4 | Pakistan Ecommerce EDA | ✅ |
+
+## Tools Used
+Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
+
+## Key Projects
+- **Pakistan Ecommerce Analysis** — 50,000 orders analyzed, 4 charts
+- **Cricket Stats Analysis** — filtering, groupby, visualization
+- **Products Revenue Analysis** — custom calculations, bar charts
