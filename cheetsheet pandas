@@ -1,0 +1,194 @@
+Yeh lo — poori cheat sheet! Haath se copy karo notebook mein. 📝
+
+---
+
+## PANDAS & NUMPY CHEAT SHEET
+
+---
+
+### 1. SETUP
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+---
+
+### 2. CSV LOAD
+```python
+# Simple
+df = pd.read_csv('file.csv')
+
+# Advanced
+df = pd.read_csv('file.csv',
+                 encoding='latin-1',
+                 nrows=50000,
+                 usecols=['col1', 'col2'])
+```
+
+---
+
+### 3. DATA EXPLORE
+```python
+df.shape          # rows, columns
+df.head()         # pehli 5 rows
+df.tail()         # aakhri 5 rows
+df.columns        # column names
+df.dtypes         # data types
+df.describe()     # basic statistics
+```
+
+---
+
+### 4. MISSING VALUES
+```python
+df.isnull().sum()                        # check
+df['col'].fillna(df['col'].mean())       # number fix
+df['col'].fillna('Unknown')              # text fix
+```
+
+---
+
+### 5. FILTER
+```python
+# Ek condition
+df[df['col'] == 'value']
+df[df['col'] > 1000]
+df[df['col'] != 'value']
+
+# Do conditions
+df[(df['col1'] == 'X') & (df['col2'] > 5)]   # AND
+df[(df['col1'] == 'X') | (df['col2'] > 5)]   # OR
+```
+
+---
+
+### 6. COLUMNS
+```python
+df['col']                    # ek column
+df[['col1', 'col2']]        # multiple columns
+df['new'] = df['a'] * df['b']   # naya column
+df.drop('col', axis=1)      # column hatao
+```
+
+---
+
+### 7. CALCULATIONS
+```python
+df['col'].sum()     # total
+df['col'].mean()    # average
+df['col'].max()     # sabse zyada
+df['col'].min()     # sabse kam
+df['col'].count()   # kitne hain
+df['col'].median()  # middle value
+```
+
+---
+
+### 8. SORTING
+```python
+df.sort_values('col')                        # ascending
+df.sort_values('col', ascending=False)       # descending
+df.sort_values(['col1', 'col2'])             # multiple
+```
+
+---
+
+### 9. GROUPBY
+```python
+# Simple
+df.groupby('col')['col2'].sum()
+df.groupby('col')['col2'].mean()
+df.groupby('col')['col2'].count()
+
+# Multiple calculations - agg()
+df.groupby('col').agg(
+    naam1=('col2', 'sum'),
+    naam2=('col2', 'mean'),
+    naam3=('col2', 'count')
+)
+```
+
+---
+
+### 10. VALUE COUNTS
+```python
+df['col'].value_counts()         # kitni baar hai
+df['col'].value_counts().head()  # top 5
+```
+
+---
+
+### 11. NUMPY
+```python
+arr = np.array([1, 2, 3, 4, 5])   # array banao
+
+np.mean(arr)    # average
+np.max(arr)     # max
+np.min(arr)     # min
+np.sum(arr)     # total
+np.std(arr)     # standard deviation
+```
+
+---
+
+### 12. MATPLOTLIB CHARTS
+```python
+# Line chart
+plt.plot(x, y)
+
+# Bar chart
+plt.bar(x, y)
+
+# Horizontal bar
+plt.barh(x, y)
+
+# Pie chart
+plt.pie(values, labels=labels, autopct='%1.1f%%')
+
+# Histogram
+plt.hist(df['col'], bins=30)
+
+# Har chart ke baad
+plt.title('Title')
+plt.xlabel('X label')
+plt.ylabel('Y label')
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+### 13. SUBPLOTS (multiple charts)
+```python
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+
+axes[0,0].bar(x, y)        # top left
+axes[0,1].plot(x, y)       # top right
+axes[1,0].barh(x, y)       # bottom left
+axes[1,1].pie(v, labels=l) # bottom right
+
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+### 14. GITHUB COMMANDS
+```bash
+git add .
+git commit -m "message"
+git push
+```
+
+---
+
+**Yaad rakho — order hamesha yahi:**
+
+```
+Load → Explore → Clean → Analyze → Visualize → GitHub
+```
+
+---
+
