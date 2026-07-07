@@ -171,7 +171,6 @@ axes[1,1].pie(v, labels=l) # bottom right
 
 plt.tight_layout()
 plt.show()
-```
 
 ---
 
