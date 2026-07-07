@@ -10,6 +10,7 @@ BSCS graduate — 3 month AI Engineer roadmap follow kar raha hoon.
 | Day 2 | Pandas Fundamentals | ✅ |
 | Day 3 | Data Analysis Practice | ✅ |
 | Day 4 | Pakistan Ecommerce EDA | ✅ |
+| Day 5 | Advanced Groupby + Pakistan Ecommerce Analysis | ✅ |
 
 ## Tools Used
 Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
@@ -18,3 +19,5 @@ Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
 - **Pakistan Ecommerce Analysis** — 50,000 orders analyzed, 4 charts
 - **Cricket Stats Analysis** — filtering, groupby, visualization
 - **Products Revenue Analysis** — custom calculations, bar charts
+- **Pakistan Ecommerce Advanced Analysis** — groupby, agg(), 
+  filtering, status breakdown, revenue by category 
