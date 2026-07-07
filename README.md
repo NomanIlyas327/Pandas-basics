@@ -11,6 +11,7 @@ BSCS graduate — 3 month AI Engineer roadmap follow kar raha hoon.
 | Day 3 | Data Analysis Practice | ✅ |
 | Day 4 | Pakistan Ecommerce EDA | ✅ |
 | Day 5 | Advanced Groupby + Pakistan Ecommerce Analysis | ✅ |
+| Day 6 | Matplotlib Advanced — Professional Dashboard | ✅ |
 
 ## Tools Used
 Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
@@ -21,3 +22,4 @@ Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
 - **Products Revenue Analysis** — custom calculations, bar charts
 - **Pakistan Ecommerce Advanced Analysis** — groupby, agg(), 
   filtering, status breakdown, revenue by category 
+- **Pakistan Ecommerce Dashboard** — 4 charts ek saath, subplots, pie/bar/line charts
