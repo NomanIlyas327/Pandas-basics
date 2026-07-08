@@ -3,6 +3,8 @@
 ## About
 BSCS graduate — 3 month AI Engineer roadmap follow kar raha hoon.
 
+
+
 ## Progress
 | Day | Topic | Status |
 |-----|-------|--------|
@@ -12,10 +14,13 @@ BSCS graduate — 3 month AI Engineer roadmap follow kar raha hoon.
 | Day 4 | Pakistan Ecommerce EDA | ✅ |
 | Day 5 | Advanced Groupby + Pakistan Ecommerce Analysis | ✅ |
 | Day 6 | Matplotlib Advanced — Professional Dashboard | ✅ |
+| Day 7 | Week 1 Capstone — Pakistan Ecommerce BI Report | ✅ |
 
 ## Tools Used
 Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
 
+
+## Week 1 Complete! ✅
 ## Key Projects
 - **Pakistan Ecommerce Analysis** — 50,000 orders analyzed, 4 charts
 - **Cricket Stats Analysis** — filtering, groupby, visualization
@@ -23,3 +28,5 @@ Python | Pandas | NumPy | Matplotlib | VS Code | Jupyter
 - **Pakistan Ecommerce Advanced Analysis** — groupby, agg(), 
   filtering, status breakdown, revenue by category 
 - **Pakistan Ecommerce Dashboard** — 4 charts ek saath, subplots, pie/bar/line charts
+- **Pakistan Ecommerce BI Report** — 50,000 orders, 
+  4 charts dashboard, business insights, summary report
